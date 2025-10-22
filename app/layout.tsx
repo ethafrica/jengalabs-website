@@ -22,14 +22,14 @@ export const metadata: Metadata = {
   description: "Building the onchain future",
   generator: "v0.app",
   icons: {
-    icon: "/favicon.jpg",
+    icon: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/jenga-labs-icon-paj2cJyBDczl3acH1nK0oWAdhp6hcJ.png",
   },
   openGraph: {
     title: "Jenga Labs",
     description: "Building the onchain future",
     images: [
       {
-        url: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-rfhOxQFR1NlYCjlGaHc0mvRwelqEL4.png",
+        url: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/jenga-labs-preview-rB7Kq6LrfP5rDNZEEVg08FdOqqtLVQ.png",
         alt: "Jenga Labs Logo",
       },
     ],
@@ -38,7 +38,9 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Jenga Labs",
     description: "Building the onchain future",
-    images: ["https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-rfhOxQFR1NlYCjlGaHc0mvRwelqEL4.png"],
+    images: [
+      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/jenga-labs-preview-rB7Kq6LrfP5rDNZEEVg08FdOqqtLVQ.png",
+    ],
   },
 }
 
