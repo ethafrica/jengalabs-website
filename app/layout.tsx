@@ -18,9 +18,28 @@ const poppins = Poppins({
 })
 
 export const metadata: Metadata = {
-  title: "Jenga Labs - Innovative Blockchain Solutions",
-  description: "Building the future of decentralized technology",
+  title: "Jenga Labs",
+  description: "Building the onchain future",
   generator: "v0.app",
+  icons: {
+    icon: "/favicon.jpg",
+  },
+  openGraph: {
+    title: "Jenga Labs",
+    description: "Building the onchain future",
+    images: [
+      {
+        url: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-rfhOxQFR1NlYCjlGaHc0mvRwelqEL4.png",
+        alt: "Jenga Labs Logo",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Jenga Labs",
+    description: "Building the onchain future",
+    images: ["https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-rfhOxQFR1NlYCjlGaHc0mvRwelqEL4.png"],
+  },
 }
 
 export default function RootLayout({
