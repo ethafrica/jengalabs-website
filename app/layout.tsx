@@ -2,6 +2,7 @@ import type React from "react"
 import type { Metadata } from "next"
 import { Orbitron, Poppins } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
+import { TawkWidget } from "@/components/tawk-widget"
 import "./globals.css"
 
 const orbitron = Orbitron({
@@ -54,6 +55,7 @@ export default function RootLayout({
       <body className={`${orbitron.variable} ${poppins.variable} font-sans antialiased`}>
         {children}
         <Analytics />
+        <TawkWidget />
       </body>
     </html>
   )
