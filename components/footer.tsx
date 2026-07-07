@@ -69,11 +69,6 @@ export function Footer() {
         </div>
 
         <div className="mt-12 border-t border-border pt-8 text-center text-sm text-muted-foreground">
-          <p className="mb-2">
-            <a href="mailto:hello@jengalabs.io" className="transition-colors hover:text-foreground">
-              hello@jengalabs.io
-            </a>
-          </p>
           <p>© 2025 Jenga Labs. All rights reserved.</p>
         </div>
       </div>
